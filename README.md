@@ -1,5 +1,7 @@
 # NEOL Restaurant Management System
 
+A complete ERP-powered Java Swing desktop application for managing restaurant operations including ordering, inventory, HR, finance, kitchen workflow, and administration.
+
 The **NEOL Restaurant Management System** is a Java Swing-based ERP desktop application designed to automate and streamline restaurant operations. this application supports various modules including Order Management, HR, Payroll, Inventory, Finance, and Kitchen Management, all backed by a centralized MySQL database.
 
 ---
@@ -10,65 +12,96 @@ The NEOL system enables restaurant staff to manage the entire workflow—from cu
 
 ---
 
-## 🖥️ Technologies Used
+### 🎯 Key Goals
+
+- Automate the complete food ordering and kitchen preparation workflow.
+- Provide HR and finance teams with integrated tools for attendance, leave, and payroll management.
+- Enable inventory managers to track and manage stock, GRNs, and supplier purchases.
+- Deliver business intelligence via KPI dashboards and income/expense tracking.
+
+ ## 🧰 Tech Stack
 
 - **Language**: Java (JDK 22+)
-- **GUI Framework**: Java Swing
+- **UI Framework**: Java Swing
 - **Database**: MySQL 8.0+
-- **IDE**: Apache NetBeans
-- **Reporting Libraries**: JasperReports, iText
-- **Design Pattern**: MVC
+- **IDE**: NetBeans
+- **Architecture**: Modular ERP Design
+- **Platform**: Windows Desktop (LAN-based)
 
----
+## ⚙️ Features
 
-## 🔑 Key Features
+### 👥 User Roles
+- Super Admin
+- HR Manager
+- Finance Manager
+- Inventory Manager
+- Kitchen Staff
+- Customer (Dining interface)
 
-### ✅ Functional Modules
+### 🛠️ System Features
+- ✅ Login system with role-based access
+- 🧾 Invoice generation and payment tracking
+- 🍽️ Dining and kitchen order management
+- 📦 Inventory control (GRNs, Purchase Orders, Stock updates)
+- 🧑‍💼 HR module with attendance, leave, and user creation
+- 💸 Finance module with payroll, payslips, salary advance, expenses
+- 📊 Dashboards with monthly KPIs, sales graphs, payroll summaries
+- 🔍 Search, filter, and export options for all modules
+- 📤 Data validation and error handling mechanisms
 
-- **Authentication & Access Control**: Role-based access for Admin, HR, Kitchen, Inventory, Finance, and Employees
-- **Order Management**: Customer orders, dining sessions, food menus
-- **Inventory Management**: GRN processing, product tracking, supplier data
-- **HR & Payroll**: Employee management, attendance, leave, position, department setup
-- **Finance**: Salary processing, payroll reports, expense reports
-- **KPI Reports**: Analytical insights on employee productivity, GRN accuracy, expense variance, and more
+## 🖼️ Project Screenshots
 
----
+### 👨‍🍳 Customer Interfaces
 
-## 📂 GUI Screens
+#### 🔐 Login Screen
 
-- **Login & Role Dashboards**: Secure sign-in and dashboard redirection
-- **Dining & Menu Interfaces**: Live order placement, potion selection, payment integration
-- **Admin Dashboard**: Graphs for revenue, employee count, and operational summaries
-- **HR Panel**: Add/manage employees, attendance, departments, payroll
-- **Finance Panel**: Add/view payrolls, track expenses, manage salary advances
-- **Kitchen & Inventory Panels**: Real-time food prep tracking, stock visualization
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/80146380a6cb25216bc7477f35fe4eb7503137a9/screenshot/customer_signIn.png)
 
----
+#### 🍽️ Dining Screen
 
-## 📊 Reports & KPIs
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/80146380a6cb25216bc7477f35fe4eb7503137a9/screenshot/customer_dinning.png)
 
-Each department includes KPI tracking features:
+#### 📋 Dining Menu Screen
 
-- **Employee Productivity**
-- **Goods Receiving Accuracy**
-- **Expense Variance**
-- **Attendance Rate**
-- **Payroll Accuracy**
-- **Departmental Utilization**
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/80146380a6cb25216bc7477f35fe4eb7503137a9/screenshot/customer_dinning_menu.png)
 
-(See `KPI Report.pdf` for detailed breakdowns.)
+### 👨‍💼 Admin Interfaces
 
----
+#### 🔐 Login Screen
 
-## ⚙️ System Requirements
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/80146380a6cb25216bc7477f35fe4eb7503137a9/screenshot/admin_signIn.png)
 
-| Component       | Minimum Requirement                |
-|----------------|-------------------------------------|
-| OS             | Windows 10 / Ubuntu 20.04+         |
-| RAM            | 4GB (8GB recommended)              |
-| Java Version   | JDK 22 or higher                   |
-| Database       | MySQL Server 8.0+                  |
-| Storage        | 1GB free space                     |
+#### 👨‍💼 Admin Dashboard
+
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/80146380a6cb25216bc7477f35fe4eb7503137a9/screenshot/admin_dashboard.png)
+
+#### 👨‍💼 HR Dashboard
+
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/80146380a6cb25216bc7477f35fe4eb7503137a9/screenshot/hr_dashboard.png)
+
+#### 👥 Manage Employee 
+
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/80146380a6cb25216bc7477f35fe4eb7503137a9/screenshot/manage_employee.png)
+
+#### 👨‍💼 Finance Dashboard
+
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/80146380a6cb25216bc7477f35fe4eb7503137a9/screenshot/finance.png)
+
+#### 💰 Payroll Management
+
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/80146380a6cb25216bc7477f35fe4eb7503137a9/screenshot/payroll_management.png)
+
+#### 👨‍💼 Stock Dashboard
+
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/70a718346dff5a0f26a1714833cc1ee4c13a065d/screenshot/stock%20dashboard.png)
+
+#### ➕ Add Food 
+
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/70a718346dff5a0f26a1714833cc1ee4c13a065d/screenshot/add_food(stock%20dashboard).png)
+
+#### 👨‍💼 Kitchen Dashboard
+
+![image alt](https://github.com/Kavindu-Vishmitha/Project_Order_Management_System_With_ERP_System/blob/70a718346dff5a0f26a1714833cc1ee4c13a065d/screenshot/kitchen_dashboard.png)
 
 ---
 
